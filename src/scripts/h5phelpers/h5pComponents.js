@@ -8,7 +8,7 @@
 export const initializeThreeSixtyPreview = (container, params, l10n) => {
   const library = Object.keys(H5PEditor.libraryLoaded)
     .filter((library) => {
-      return library.split(' ')[0] === 'H5P.NDLAThreeImage';
+      return library.split(' ')[0] === 'H5P.EscapeRoom';
     })[0];
 
   return H5P.newRunnable(
