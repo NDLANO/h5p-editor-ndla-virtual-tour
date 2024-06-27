@@ -35,7 +35,7 @@ export default class NDLAEscapeRoom {
    * @returns {string} Correct translation.
    */
   t(...args) {
-    const translations = ['H5PEditor.NDLAThreeImage', ...args];
+    const translations = ['H5PEditor.EscapeRoom', ...args];
     return H5PEditor.t.apply(window, translations);
   }
 
@@ -111,4 +111,4 @@ export default class NDLAEscapeRoom {
   }
 }
 
-H5PEditor.widgets.NDLAthreeImage = H5PEditor.NDLAThreeImage = NDLAEscapeRoom;
+H5PEditor.widgets.EscapeRoom = H5PEditor.EscapeRoom = NDLAEscapeRoom;
